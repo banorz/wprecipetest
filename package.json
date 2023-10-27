@@ -1,0 +1,37 @@
+{
+    "name": "wp-ultimate-recipe",
+    "version": "1.0.0",
+    "description": "WP Ultimate Recipe",
+    "main": "index.js",
+    "author": "Bootstrapped Ventures",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.5",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-plugin-transform-runtime": "^6.23.0",
+        "babel-polyfill": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "css-loader": "^1.0.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "gulp": "^3.9.1",
+        "gulp-concat": "^2.6.1",
+        "gulp-minify-css": "^1.2.4",
+        "gulp-rename": "^1.4.0",
+        "gulp-sass": "^4.0.2",
+        "gulp-uglify": "^3.0.1",
+        "node-sass": "^4.9.2",
+        "optimize-css-assets-webpack-plugin": "^5.0.0",
+        "sass-loader": "^7.0.3",
+        "source-map-loader": "^0.2.3",
+        "style-loader": "^0.21.0",
+        "uglifyjs-webpack-plugin": "^1.2.7",
+        "webpack": "^4.16.3",
+        "webpack-cli": "^3.1.0"
+    },
+    "scripts": {
+        "build": "webpack --progress --mode development",
+        "build:production": "webpack --progress --mode production",
+        "start": "webpack --hide-modules --watch --mode development"
+    }
+}

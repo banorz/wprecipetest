@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Listen for XDebug",
+            "type": "php",
+            "request": "launch",
+            "port": 9000,
+            "serverSourceRoot": "/app/public/wp-content/plugins/wp-ultimate-post-grid-premium",
+            "localSourceRoot": "${workspaceRoot}"
+        }
+    ]
+}
